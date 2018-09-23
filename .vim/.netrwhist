@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/tnt/.config/sway'
+let g:netrw_dirhist_2='/home/tnt/.config'
+let g:netrw_dirhist_3='/home/tnt/.spotify-ripper'
+let g:netrw_dirhist_4='/home/tnt/.config/systemd/user'
+let g:netrw_dirhist_5='/home/tnt/.config/sway'
+let g:netrw_dirhist_6='/home/tnt/Documents/dotfiles-wsl/.vim'

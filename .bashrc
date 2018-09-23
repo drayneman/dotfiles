@@ -117,3 +117,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Custom PS1                                                                                                                                                                                
+export PS1="\[\e[37m\][\[\033[38;5;37m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;136m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \W]\\$ \[$(tput sgr0)\]"                  
+
+# Ensure resizing                                                                                                                                                                          
+shopt -s checkwinsize
+
+# Cowsay                                                                                                                                                                                   
+cowsay $(fortune -as)
